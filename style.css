@@ -12,6 +12,7 @@
 
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 /* Header Başlangıç */
@@ -24,6 +25,8 @@ html, body {
     text-align: center;
     justify-content: space-between;
     border-bottom: 1px solid #999;
+    height: 10%;
+    border: #999 solid 1px;
 }
 
 .header .logo {
@@ -103,13 +106,69 @@ html, body {
     transition: 0.3s;
 }
 
-
-
-
-
-
-
-
-
 /* Container Bitiş */
 
+/* Section Başlangıç */
+.card {
+    display: flex;
+    padding-top: 10px;
+    height: 90%;
+    margin-top: 5px;
+    width: 2000px;
+}
+
+.card p {
+    padding-top: 3px;
+}
+
+
+.card1 {
+    width: 33%;
+    color: white;
+    font-weight: 700;
+    border: 1px solid rgb(52, 93, 139);
+    margin: 0 20px;
+
+}
+
+.card1 img {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.card1 img:hover {
+    cursor: pointer;
+}
+
+.button {
+    color: rgb(52, 93, 139);
+    border: 1px solid rgb(52, 93, 139);
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.button:hover {
+    color: rgb(38, 68, 102);
+    border-color: rgb(38, 68, 102);
+    transition: 0.5s;
+}
+
+.card2 {
+    color: red;
+    border: 1px solid red;
+    margin: 0 20px;
+    width: 33%;
+}
+
+.card3 {
+    color: red;
+    border: 1px solid red;
+    width: 33%;
+    margin: 0 20px;
+}
+
+
+
+
+
+/* Section Bitiş */
